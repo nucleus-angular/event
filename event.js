@@ -7,10 +7,18 @@
  * Pass an object with keynames for events to nag-event
  * Allows $event object and $params object to be passed
  *
- * @example <input nag-event="{ focus : 'counter++', blur : 'someCallback()' }">
- * @example <input nag-event="{ myCustomEvent : 'myEventHandler($event, $params)'}">
+ * ```html
+ * <input nag-event="{ focus : 'counter++', blur : 'someCallback()' }" />
+ * ```
  *
- * @param ui-event {string|object literal} The event to bind to as a string or a hash of events with their callbacks
+ * ```html
+ * <input nag-event="{ myCustomEvent : 'myEventHandler($event, $params)'}" />
+ * ```
+ *
+ * @module nag.event
+ * @ngdirective nagEvent
+ *
+ * @nghtmlattribute nag-event {string|object literal} The event to bind to as a string or a hash of events with their callbacks
  */
 angular.module('nag.event', [])
 .directive('nagEvent', [

@@ -1,0 +1,5 @@
+<div class="home-page">
+  <div>Event Data: <span data-ut="event-data">{{ eventData }}</span></div>
+  <button nag-event="{click: 'click($event)'}" data-ut="single-event">click</button>
+  <button nag-event="{click: 'click($event)', mouseover: 'mouseOver($event)'}" data-ut="multiple-events">click/mouseover</button>
+</div>

@@ -1,0 +1,8 @@
+{
+  "tests": [
+    "dalek/event.js"
+  ],
+  "browser": [
+    "chrome"
+  ]
+}

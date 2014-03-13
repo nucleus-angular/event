@@ -20,7 +20,7 @@
  *
  * @nghtmlattribute nag-event {string|object literal} The event to bind to as a string or a hash of events with their callbacks
  */
-angular.module('nag.event', [])
+angular.module('nag.event')
 .directive('nagEvent', [
   '$parse',
   function($parse) {

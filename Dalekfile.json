@@ -2,6 +2,7 @@
   "tests": [
     "dalek/event.js"
   ],
+  "logLevel": "1",
   "browser": [
     "chrome"
   ]
